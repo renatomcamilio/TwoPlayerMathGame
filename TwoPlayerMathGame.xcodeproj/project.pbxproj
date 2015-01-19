@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		883988581A6C942500E28E86 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 883988571A6C942500E28E86 /* main.c */; };
+		883988601A6CDD1600E28E86 /* arithmetic.c in Sources */ = {isa = PBXBuildFile; fileRef = 8839885E1A6CDD1600E28E86 /* arithmetic.c */; };
+		883988631A6CDDCE00E28E86 /* player.c in Sources */ = {isa = PBXBuildFile; fileRef = 883988611A6CDDCE00E28E86 /* player.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		883988541A6C942500E28E86 /* TwoPlayerMathGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoPlayerMathGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		883988571A6C942500E28E86 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8839885E1A6CDD1600E28E86 /* arithmetic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arithmetic.c; path = TwoPlayerMathGame/arithmetic.c; sourceTree = "<group>"; };
+		8839885F1A6CDD1600E28E86 /* arithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arithmetic.h; path = TwoPlayerMathGame/arithmetic.h; sourceTree = "<group>"; };
+		883988611A6CDDCE00E28E86 /* player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = player.c; sourceTree = "<group>"; };
+		883988621A6CDDCE00E28E86 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		8839884B1A6C942500E28E86 = {
 			isa = PBXGroup;
 			children = (
+				883988611A6CDDCE00E28E86 /* player.c */,
+				883988621A6CDDCE00E28E86 /* player.h */,
+				8839885E1A6CDD1600E28E86 /* arithmetic.c */,
+				8839885F1A6CDD1600E28E86 /* arithmetic.h */,
 				883988561A6C942500E28E86 /* TwoPlayerMathGame */,
 				883988551A6C942500E28E86 /* Products */,
 			);
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				883988581A6C942500E28E86 /* main.c in Sources */,
+				883988631A6CDDCE00E28E86 /* player.c in Sources */,
+				883988601A6CDD1600E28E86 /* arithmetic.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
